@@ -52,6 +52,8 @@ export default function AddTeam() {
       players: team,
     };
     createTeam(savedTeam);
+    setTeam([]);
+    setTeamName('');
   };
 
   return (
